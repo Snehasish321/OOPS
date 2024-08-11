@@ -1,0 +1,10 @@
+This is my OOPs note . 
+The full form of OOPs is Object Oriented Programmings .
+* OOPs helps us to increase the useability of the code . 
+
+Before starting the concept of OOPs we need to know about Classes and Objects .
+1. Classes : Class is like a blueprint of these entities .
+2. Objects : Objects are entities in the real world .
+
+We must should know about properties .
+1. Properties are basically values , which are associated with the entity . 
