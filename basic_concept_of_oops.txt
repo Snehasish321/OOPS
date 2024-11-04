@@ -1,0 +1,47 @@
+Q. What is OOP ?
+A. Object-Oriented Programming (OOP) is a programming paradigm that organizes software design around objects, which can represent real-world or conceptual entities, like a "Car," "Employee," or "Account." In OOP, the data (attributes) and behaviors (methods) of these entities are combined within objects, enabling more modular, reusable, and manageable code.
+
+** There are some core principals of OOP :
+1. Encapsulation
+2. Data Abstraction or Data Hidding
+3. Inheritance
+4. Polymorphism
+
+Now we discuss about the 4 core concepts of OOP
+1. Encapsulation
+      Encapsulation is the process of bundling data (attributes) and methods (functions) that operate on the data into a single unit, called a class. This concept allows a class to control the access and modification of its data through access specifiers (public, private, protected).
+
+Benefits:
+
+a. Data Protection: Encapsulation restricts direct access to the data, reducing the chance of accidental modification.
+b. Ease of Maintenance: Changes to data representation or internal functionality can be done without affecting other parts of the program.
+c. Increased Code Organization: Grouping related data and methods makes it easier to understand and maintain code.
+
+2. Data Abstraction or Data Hidding 
+       Data Abstraction is the concept of hiding complex details and showing only the essential features of an object. In OOP, abstraction is often achieved using abstract classes and interfaces, which provide a blueprint for functionality but leave the implementation to derived classes.
+
+Benefits:
+
+a. Reduces Complexity: Abstraction allows users to interact with simpler, high-level representations of complex systems.
+b. Improves Focus on Key Operations: Programmers focus on essential features without being overwhelmed by internal details.
+
+3. Inheritance:
+      Inheritance is the mechanism by which a class (called the derived or child class) can inherit properties and behaviors (attributes and methods) from another class (called the base or parent class). This relationship enables code reuse, as common functionality is written once in the base class and shared with derived classes.
+
+Benefits:
+
+a. Code Reusability: Common features are written in one place and reused, reducing redundancy.
+b. Hierarchy Representation: Inheritance allows for a logical hierarchy, representing "is-a" relationships (e.g., a Dog is an Animal).
+c. Enhanced Maintainability: Changes in base classes are automatically inherited, simplifying updates across related classes.
+
+4. Polymorphism
+      Polymorphism, meaning "many forms," allows objects to be treated as instances of their parent class rather than their actual class. This principle is primarily implemented through function overloading and overriding in C++.
+
+Types of Polymorphism:
+a. Compile-Time Polymorphism: Achieved via function overloading (same function name with different parameters) and operator overloading.
+b. Run-Time Polymorphism: Achieved through function overriding using virtual functions. This allows the program to decide at runtime which function to execute, based on the actual object type.
+
+Benefits:
+
+a. Code Flexibility: Polymorphism enables the same operation to behave differently on different objects.
+b. Enhanced Extensibility: New classes can implement polymorphic behaviors without changing existing code.
