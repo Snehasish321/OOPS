@@ -1,3 +1,5 @@
+//I got this question in my viva exam 
+
 #include <iostream>
 using namespace std;
 
